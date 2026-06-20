@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Full Name - Online Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- THEME TOGGLE -->
+  <button class="theme-toggle" id="themeBtn" title="Toggle dark/light mode">
+    <span class="icon-sun">☀️</span>
+    <span class="icon-moon">🌙</span>
+  </button>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <div class="profile-ring">
+        <img src="profile.jpg" alt="Full Name" class="profile-pic" />
+      </div>
+      <h1>FULL NAME</h1>
+      <p class="header-sub">City, State &nbsp;·&nbsp; Institution/University Name</p>
+      <p class="header-contact">
+        <a href="tel:+60100000000">(+60)1X-XXXXXXX</a>
+        &nbsp;|&nbsp;
+        <a href="mailto:fullname@email.com">fullname@email.com</a>
+        &nbsp;|&nbsp;
+        <a href="https://linkedin.com/in/your-profile" target="_blank">LinkedIn Profile</a>
+      </p>
+    </div>
+  </header>
+
+  <!-- NAV -->
+  <nav>
+    <a href="#resume">Resume</a>
+    <a href="#career-objective">Objective</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#work-experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#achievements">Achievements</a>
+    <a href="#leadership">Leadership</a>
+    <a href="#references">References</a>
+  </nav>
+
+  <main>
+
+    <!-- RESUME SECTION -->
+    <section class="card" id="resume">
+      <h2>Resume</h2>
+      <div class="gold-line"></div>
+      <div class="resume-container">
+        <div class="resume-preview">
+          <iframe src="Your Resume.pdf" class="resume-frame"></iframe>
+        </div>
+        <div class="resume-actions">
+          <p class="resume-desc">Download my full resume to learn more about my experience, education and skills.</p>
+          <a href="Your Resume.pdf" class="btn-proj btn-primary" download>⬇️ Download Resume</a>
+          <a href="Your Resume.pdf" class="btn-proj btn-outline" target="_blank">View Full Resume</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- RESUME CONTENT SECTION (full text version of resume, mirrors -->
+    <!-- the sections in the resume template — note: in the          -->
+    <!-- questionnaire, the user will indicate which of these        -->
+    <!-- sections they want included. Remove unused sections below   -->
+    <!-- once their answers come in.                                 -->
+    <!-- ============================================================ -->
+
+    <!-- ---------------- CAREER OBJECTIVE ---------------- -->
+    <section class="card" id="career-objective">
+      <h2>Career Objective</h2>
+      <div class="gold-line"></div>
+      <p class="objective-text">[Aspiring/Experienced] [target role, e.g. Data Analyst] with a strong foundation in [your field of study], actively building/applying technical competency in [key skill 1, key skill 2, key skill 3]. Seeking a [internship/position] to apply [your relevant skills] within a [type of organisation] and deliver [the value you aim to provide].</p>
+    </section>
+
+    <!-- ---------------- EDUCATION ---------------- -->
+    <section class="card" id="education">
+      <h2>Education</h2>
+      <div class="gold-line"></div>
+      <div class="timeline">
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY – Mon YYYY</p>
+            <h3>[Degree Name, e.g. Bachelor of Science in (Your Field)]</h3>
+            <p><em>[University/Institution Name, Campus/Location]</em></p>
+            <p><strong>CGPA: X.XX</strong> | [Awards/Dean's List/Scholarships, if applicable]</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------------- SKILLS ---------------- -->
+    <section class="card" id="skills">
+      <h2>Skills</h2>
+      <div class="gold-line"></div>
+      <p><strong>Category 1: </strong>[Skill 1, Skill 2, Skill 3, Skill 4]</p>
+      <p><strong>Category 2: </strong>[Skill 1, Skill 2, Skill 3, Skill 4]</p>
+      <p><strong>Category 3: </strong>[Skill 1, Skill 2, Skill 3, Skill 4]</p>
+      <p><strong>Languages: </strong>[Language 1 (Proficiency), Language 2 (Proficiency)]</p>
+    </section>
+
+    <!-- ---------------- WORK EXPERIENCE ---------------- -->
+    <section class="card" id="work-experience">
+      <h2>Work Experience</h2>
+      <div class="gold-line"></div>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY – Mon YYYY</p>
+            <h3>[Job Title]</h3>
+            <p><em>[Company Name (Department)]</em></p>
+            <ul>
+              <li>[Example] Extracted and analysed [type of data] using [tool/method], investigating [specific scope, e.g. records, accounts, cases] to support [the business outcome/purpose].</li>
+              <li>[Action verb] + [problem you solved/process you improved] + [tool/method used], + [resulting benefit].</li>
+              <li>[Action verb] + [problem/inefficiency you identified] + [solution you built/applied], + [measurable result, e.g. time saved].</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY – Mon YYYY</p>
+            <h3>[Job Title]</h3>
+            <p><em>[Company/Organisation Name]</em></p>
+            <ul>
+              <li>[Example] Assessed/Reviewed [what you handled] for [scope, e.g. number of people/items], guiding [who] through [a process/method] to achieve [the goal].</li>
+              <li>[Action verb] + [what you did] + [who/what it affected], + [measurable outcome, if any].</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      <!-- Need more work experience entries? Duplicate one <div class="tl-item">...</div> block above and update the content. -->
+    </section>
+
+    <!-- ---------------- CERTIFICATIONS (RESUME LIST VERSION) ---------------- -->
+    <section class="card" id="certifications-list">
+      <h2>Certifications &amp; Professional Development</h2>
+      <div class="gold-line"></div>
+      <ul class="cert-text-list">
+        <li>[Certification/Course Name] — <em>[Issuing Institution]</em></li>
+        <li>[Certification/Course Name] — <em>[Issuing Institution]</em></li>
+        <li>[Certification/Course Name] — <em>[Issuing Institution]</em></li>
+      </ul>
+      <!-- Need more certification entries? Duplicate one <li>...</li> line above and update the content. -->
+    </section>
+
+    <!-- ---------------- ACHIEVEMENTS (RESUME LIST VERSION) ---------------- -->
+    <section class="card" id="achievements-list">
+      <h2>Achievements</h2>
+      <div class="gold-line"></div>
+      <ul class="cert-text-list">
+        <li>[Award/Recognition Name] — <strong>Mon YYYY</strong></li>
+        <li>[Award/Recognition Name] — <strong>Mon YYYY</strong></li>
+        <li>[Award/Recognition Name] — <strong>Mon YYYY</strong></li>
+      </ul>
+      <!-- Need more achievement entries? Duplicate one <li>...</li> line above and update the content. -->
+    </section>
+
+    <!-- ---------------- LEADERSHIP & CO-CURRICULAR (RESUME TEXT VERSION) ---------------- -->
+    <section class="card" id="leadership-list">
+      <h2>Leadership &amp; Co-Curricular Activities</h2>
+      <div class="gold-line"></div>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY</p>
+            <h3>[Role Title] - [Activity/Event Name]</h3>
+            <p>[Example] Directed/Led [an activity/event scope, e.g. participant count], achieving [specific outcome or recognition].</p>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY</p>
+            <h3>[Role Title] - [Activity/Event Name]</h3>
+            <p>[Action verb] + [what you organised/secured/contributed], + [scope or impact].</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- Need more leadership entries? Duplicate one <div class="tl-item">...</div> block above and update the content. -->
+    </section>
+
+    <!-- ---------------- REFERENCES ---------------- -->
+    <section class="card" id="references">
+      <h2>References</h2>
+      <div class="gold-line"></div>
+      <div class="resume-container">
+        <div>
+          <p><strong>[Referee 1 Full Name]</strong></p>
+          <p><em>[Referee 1 Title/Position, Organisation]</em></p>
+          <p>email@example.com | (+60)1X-XXXXXXX</p>
+        </div>
+        <div>
+          <p><strong>[Referee 2 Full Name]</strong></p>
+          <p><em>[Referee 2 Title/Position, Organisation]</em></p>
+          <p>email@example.com | (+60)1X-XXXXXXX</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- END RESUME CONTENT SECTION                                   -->
+    <!-- ============================================================ -->
+
+    <!-- PROJECTS -->
+    <section class="card" id="projects">
+      <h2>Projects</h2>
+      <div class="gold-line"></div>
+      <p class="objective-text" style="margin-bottom:1.6rem;">[Short intro describing your project category — e.g. tools/coursework/bootcamp this set of projects came from.]</p>
+      <div class="projects-grid">
+
+        <div class="project-card">
+          <img src="1.png" alt="[Project Name]" />
+          <div class="project-body">
+            <h3>01 · [Project Name]</h3>
+            <p class="proj-year">[Project Type, e.g. Course Project / Personal Project]</p>
+            <div class="tag-row"><span class="tag">[Tool 1]</span><span class="tag">[Tool 2]</span><span class="tag">[Tool 3]</span></div>
+            <ul>
+              <li>[What you built/did + outcome — bullet 1]</li>
+              <li>[What you built/did + outcome — bullet 2]</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="2.png" alt="[Project Name]" />
+          <div class="project-body">
+            <h3>02 · [Project Name]</h3>
+            <p class="proj-year">[Project Type]</p>
+            <div class="tag-row"><span class="tag">[Tool 1]</span><span class="tag">[Tool 2]</span><span class="tag">[Tool 3]</span></div>
+            <ul>
+              <li>[What you built/did + outcome — bullet 1]</li>
+              <li>[What you built/did + outcome — bullet 2]</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="3.png" alt="[Project Name]" />
+          <div class="project-body">
+            <h3>03 · [Project Name]</h3>
+            <p class="proj-year">[Project Type]</p>
+            <div class="tag-row"><span class="tag">[Tool 1]</span><span class="tag">[Tool 2]</span><span class="tag">[Tool 3]</span></div>
+            <ul>
+              <li>[What you built/did + outcome — bullet 1]</li>
+              <li>[What you built/did + outcome — bullet 2]</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="4.png" alt="[Project Name]" />
+          <div class="project-body">
+            <h3>04 · [Project Name]</h3>
+            <p class="proj-year">[Project Type]</p>
+            <div class="tag-row"><span class="tag">[Tool 1]</span><span class="tag">[Tool 2]</span><span class="tag">[Tool 3]</span></div>
+            <ul>
+              <li>[What you built/did + outcome — bullet 1]</li>
+              <li>[What you built/did + outcome — bullet 2]</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="5.png" alt="[Project Name]" />
+          <div class="project-body">
+            <h3>05 · [Project Name]</h3>
+            <p class="proj-year">[Project Type]</p>
+            <div class="tag-row"><span class="tag">[Tool 1]</span><span class="tag">[Tool 2]</span><span class="tag">[Tool 3]</span></div>
+            <ul>
+              <li>[What you built/did + outcome — bullet 1]</li>
+              <li>[What you built/did + outcome — bullet 2]</li>
+            </ul>
+            <div class="proj-btns">
+              <a href="#" class="btn-proj btn-primary" target="_blank">View Project</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Need more project cards? Duplicate one <div class="project-card">...</div> block above and update the content. -->
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section class="card" id="certifications">
+      <h2>Certifications & Professional Development</h2>
+      <div class="gold-line"></div>
+      <div class="cert-grid">
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>🖼️</span><p>Upload certificate image</p></div>
+          <div class="cert-body">
+            <h4>[Certification/Course Name]</h4>
+            <p class="cert-issuer">[Issuing Institution]</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>🖼️</span><p>Upload certificate image</p></div>
+          <div class="cert-body">
+            <h4>[Certification/Course Name]</h4>
+            <p class="cert-issuer">[Issuing Institution]</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>🖼️</span><p>Upload certificate image</p></div>
+          <div class="cert-body">
+            <h4>[Certification/Course Name]</h4>
+            <p class="cert-issuer">[Issuing Institution]</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>⏳</span><p>In Progress</p></div>
+          <div class="cert-body">
+            <h4>[Certification/Course Name]</h4>
+            <p class="cert-issuer">[Issuing Institution]</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-img-placeholder"><span>⏳</span><p>In Progress</p></div>
+          <div class="cert-body">
+            <h4>[Certification/Course Name]</h4>
+            <p class="cert-issuer">[Issuing Institution]</p>
+          </div>
+        </div>
+
+      </div>
+      <!-- Need more cert cards? Duplicate one <div class="cert-card">...</div> block above and update the content. -->
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section class="card" id="achievements">
+      <h2>Achievements</h2>
+      <div class="gold-line"></div>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY</p>
+            <h3>🥈 [Award/Recognition Name]</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY</p>
+            <h3>🏆 [Award/Recognition Name]</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY</p>
+            <h3>🎓 [Award/Recognition Name]</h3>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Need more achievement entries? Duplicate one <div class="tl-item">...</div> block above and update the content. -->
+    </section>
+
+    <!-- LEADERSHIP -->
+    <section class="card" id="leadership">
+      <h2>Leadership & Co-Curricular Activities</h2>
+      <div class="gold-line"></div>
+      <div class="timeline">
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div><div class="tl-line"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">Mon YYYY</p>
+            <h3>[Role Title] — [Activity/Event Name]</h3>
+            <p>[What you did/organised/achieved in this role, in 1-2 sentences.]</p>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tl-item">
+          <div class="tl-left"><div class="tl-dot"></div></div>
+          <div class="tl-body">
+            <p class="date-inline">YYYY – YYYY</p>
+            <h3>[Role Title] — [Activity/Event Name]</h3>
+            <p>[What you did/organised/achieved in this role, in 1-2 sentences.]</p>
+            <div class="photo-grid">
+              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Need more leadership entries? Duplicate one <div class="tl-item">...</div> block above and update the content. -->
+    </section>
+
+  </main>
+
+  <footer>
+    <p>© 2026 Full Name &nbsp;·&nbsp; Built with HTML & CSS &nbsp;·&nbsp; Hosted on GitHub Pages</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('themeBtn');
+    const html = document.documentElement;
+    btn.addEventListener('click', () => {
+      const current = html.getAttribute('data-theme');
+      html.setAttribute('data-theme', current === 'light' ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>
