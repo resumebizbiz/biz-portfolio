@@ -1,82 +1,82 @@
 /* ================================================
-   FIQHLEY ILMEY - PORTFOLIO
-   Theme: Purple & Gold  |  Light / Dark toggle
+   PORTFOLIO TEMPLATE
+   Theme: Blue & White  |  Light / Dark toggle
    ================================================ */
 
 /* ---- CSS VARIABLES (Light mode) ---- */
 :root {
-  --bg-page:        #F0EEFF;
+  --bg-page:        #EEF3FB;
   --bg-card:        #FFFFFF;
-  --bg-header:      #2D1B69;
+  --bg-header:      #0B2E59;
   --bg-nav:         #FFFFFF;
-  --bg-placeholder: #EDE8FF;
-  --text-primary:   #1A0F3C;
-  --text-secondary: #4A3F6B;
-  --text-muted:     #7B6FA0;
+  --bg-placeholder: #E3ECFA;
+  --text-primary:   #0B1F33;
+  --text-secondary: #3A526B;
+  --text-muted:     #6F84A0;
   --text-header:    #FFFFFF;
-  --text-header-sub:#C8C0E8;
-  --gold:           #C9A84C;
-  --gold-light:     #F0D080;
-  --purple:         #4A2C9B;
-  --purple-light:   #7B5EC6;
-  --purple-pale:    #EDE8FF;
-  --border:         #DDD6F5;
-  --tl-line:        #DDD6F5;
-  --shadow:         0 2px 12px rgba(45,27,105,0.08);
-  --nav-link:       #2D1B69;
+  --text-header-sub:#AFC4E3;
+  --gold:           #2D6FE0;
+  --gold-light:     #6FA0F0;
+  --purple:         #15407A;
+  --purple-light:   #3E6FBF;
+  --purple-pale:    #E3ECFA;
+  --border:         #D3DFF2;
+  --tl-line:        #D3DFF2;
+  --shadow:         0 2px 12px rgba(11,46,89,0.08);
+  --nav-link:       #0B2E59;
   --btn-text:       #FFFFFF;
-  --chip-purple-bg: #EDE8FF;
-  --chip-purple-tx: #4A2C9B;
-  --chip-gold-bg:   #FDF3D8;
-  --chip-gold-tx:   #7A5800;
+  --chip-purple-bg: #E3ECFA;
+  --chip-purple-tx: #15407A;
+  --chip-gold-bg:   #DCEBFF;
+  --chip-gold-tx:   #1455B0;
   --chip-blue-bg:   #E8F0FF;
   --chip-blue-tx:   #1A4BAB;
-  --chip-teal-bg:   #E0F5F0;
-  --chip-teal-tx:   #0D6E56;
-  --chip-rose-bg:   #FFE8F0;
-  --chip-rose-tx:   #99204A;
-  --chip-gray-bg:   #F0EEF8;
-  --chip-gray-tx:   #4A3F6B;
-  --cert-bg:        #F8F6FF;
-  --placeholder-icon: #A090CC;
+  --chip-teal-bg:   #E0F2F5;
+  --chip-teal-tx:   #0D6E8E;
+  --chip-rose-bg:   #E9EEFF;
+  --chip-rose-tx:   #2A3F99;
+  --chip-gray-bg:   #EEF1F8;
+  --chip-gray-tx:   #3A526B;
+  --cert-bg:        #F5F8FE;
+  --placeholder-icon: #7FA0D8;
 }
 
 /* ---- CSS VARIABLES (Dark mode) ---- */
 [data-theme="dark"] {
-  --bg-page:        #0F0820;
-  --bg-card:        #1A1035;
-  --bg-header:      #0A051A;
-  --bg-nav:         #130D2E;
-  --bg-placeholder: #251848;
-  --text-primary:   #EDE8FF;
-  --text-secondary: #B8A8E8;
-  --text-muted:     #8070A8;
+  --bg-page:        #060E1C;
+  --bg-card:        #0E1C32;
+  --bg-header:      #050C16;
+  --bg-nav:         #0B1729;
+  --bg-placeholder: #142943;
+  --text-primary:   #E6EEFA;
+  --text-secondary: #A8BEDC;
+  --text-muted:     #71889F;
   --text-header:    #FFFFFF;
-  --text-header-sub:#9080C0;
-  --gold:           #D4A843;
-  --gold-light:     #EEC860;
-  --purple:         #8B6FD4;
-  --purple-light:   #A990E8;
-  --purple-pale:    #251848;
-  --border:         #2E1F5E;
-  --tl-line:        #2E1F5E;
+  --text-header-sub:#88A6D0;
+  --gold:           #4F8FE8;
+  --gold-light:     #7BAEF2;
+  --purple:         #6FA0E8;
+  --purple-light:   #93BBF0;
+  --purple-pale:    #142943;
+  --border:         #1C3252;
+  --tl-line:        #1C3252;
   --shadow:         0 2px 16px rgba(0,0,0,0.4);
-  --nav-link:       #C8B8F0;
+  --nav-link:       #BBD0EF;
   --btn-text:       #FFFFFF;
-  --chip-purple-bg: #2A1858;
-  --chip-purple-tx: #C0A0F8;
-  --chip-gold-bg:   #2A2008;
-  --chip-gold-tx:   #D4A843;
+  --chip-purple-bg: #142C4E;
+  --chip-purple-tx: #9BC0F4;
+  --chip-gold-bg:   #102540;
+  --chip-gold-tx:   #6FA8EE;
   --chip-blue-bg:   #0E2040;
   --chip-blue-tx:   #80B0F8;
-  --chip-teal-bg:   #062820;
-  --chip-teal-tx:   #60D0A8;
-  --chip-rose-bg:   #300818;
-  --chip-rose-tx:   #F080A8;
-  --chip-gray-bg:   #1E1838;
-  --chip-gray-tx:   #9888C0;
-  --cert-bg:        #1E1540;
-  --placeholder-icon: #6050A0;
+  --chip-teal-bg:   #06282C;
+  --chip-teal-tx:   #5FCBDF;
+  --chip-rose-bg:   #161E40;
+  --chip-rose-tx:   #9AAEF0;
+  --chip-gray-bg:   #131F38;
+  --chip-gray-tx:   #93A8C4;
+  --cert-bg:        #102140;
+  --placeholder-icon: #4A6FA8;
 }
 
 /* ---- RESET ---- */
@@ -321,7 +321,7 @@ main {
 
 .project-card:hover {
   border-color: var(--purple-light);
-  box-shadow: 0 4px 20px rgba(74,44,155,0.15);
+  box-shadow: 0 4px 20px rgba(21,64,122,0.15);
 }
 
 .project-img-placeholder {
