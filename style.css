@@ -15,8 +15,8 @@
   --text-muted:     #6F84A0;
   --text-header:    #FFFFFF;
   --text-header-sub:#AFC4E3;
-  --gold:           #2D6FE0;
-  --gold-light:     #6FA0F0;
+  --gold:           #C9A84C;
+  --gold-light:     #F0D080;
   --purple:         #15407A;
   --purple-light:   #3E6FBF;
   --purple-pale:    #E3ECFA;
@@ -27,8 +27,8 @@
   --btn-text:       #FFFFFF;
   --chip-purple-bg: #E3ECFA;
   --chip-purple-tx: #15407A;
-  --chip-gold-bg:   #DCEBFF;
-  --chip-gold-tx:   #1455B0;
+  --chip-gold-bg:   #FDF3D8;
+  --chip-gold-tx:   #7A5800;
   --chip-blue-bg:   #E8F0FF;
   --chip-blue-tx:   #1A4BAB;
   --chip-teal-bg:   #E0F2F5;
@@ -53,8 +53,8 @@
   --text-muted:     #71889F;
   --text-header:    #FFFFFF;
   --text-header-sub:#88A6D0;
-  --gold:           #4F8FE8;
-  --gold-light:     #7BAEF2;
+  --gold:           #D4A843;
+  --gold-light:     #EEC860;
   --purple:         #6FA0E8;
   --purple-light:   #93BBF0;
   --purple-pale:    #142943;
@@ -65,8 +65,8 @@
   --btn-text:       #FFFFFF;
   --chip-purple-bg: #142C4E;
   --chip-purple-tx: #9BC0F4;
-  --chip-gold-bg:   #102540;
-  --chip-gold-tx:   #6FA8EE;
+  --chip-gold-bg:   #2A2008;
+  --chip-gold-tx:   #D4A843;
   --chip-blue-bg:   #0E2040;
   --chip-blue-tx:   #80B0F8;
   --chip-teal-bg:   #06282C;
