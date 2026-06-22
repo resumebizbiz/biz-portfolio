@@ -522,7 +522,7 @@ main {
   min-height: 24px;
 }
 
-.tl-body { flex: 1; }
+.tl-body { flex: 1; min-width: 0; }
 
 .tl-body h3 {
   font-size: 1rem;
@@ -562,6 +562,7 @@ main {
   scroll-snap-type: x proximity;
   padding-bottom: 6px;
   -webkit-overflow-scrolling: touch;
+  max-width: 100%;
 }
 
 .photo-grid::-webkit-scrollbar {
