@@ -210,10 +210,14 @@
     <section class="card" id="certifications">
       <h2>Certifications &amp; Professional Development</h2>
       <div class="gold-line"></div>
+      <!-- Lightbox enabled: click a cert image to view it full-size. -->
+      <!-- To add a real image, replace the placeholder div inside the <a> tag with: <img src="your-cert-image.jpg"> -->
       <div class="cert-grid">
 
         <div class="cert-card">
-          <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          <a href="#lightbox-cert-1">
+            <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          </a>
           <div class="cert-body">
             <h4>[Certification/Course Name]</h4>
             <p class="cert-issuer">[Issuing Institution]</p>
@@ -221,7 +225,9 @@
         </div>
 
         <div class="cert-card">
-          <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          <a href="#lightbox-cert-2">
+            <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          </a>
           <div class="cert-body">
             <h4>[Certification/Course Name]</h4>
             <p class="cert-issuer">[Issuing Institution]</p>
@@ -229,7 +235,9 @@
         </div>
 
         <div class="cert-card">
-          <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          <a href="#lightbox-cert-3">
+            <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          </a>
           <div class="cert-body">
             <h4>[Certification/Course Name]</h4>
             <p class="cert-issuer">[Issuing Institution]</p>
@@ -237,7 +245,9 @@
         </div>
 
         <div class="cert-card">
-          <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          <a href="#lightbox-cert-4">
+            <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          </a>
           <div class="cert-body">
             <h4>[Certification/Course Name]</h4>
             <p class="cert-issuer">[Issuing Institution]</p>
@@ -245,7 +255,9 @@
         </div>
 
         <div class="cert-card">
-          <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          <a href="#lightbox-cert-5">
+            <div class="cert-img-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+          </a>
           <div class="cert-body">
             <h4>[Certification/Course Name]</h4>
             <p class="cert-issuer">[Issuing Institution]</p>
@@ -253,7 +265,24 @@
         </div>
 
       </div>
-      <!-- Need more cert cards? Duplicate one <div class="cert-card">...</div> block above and update the content. -->
+      <!-- Need more cert cards? Duplicate one <div class="cert-card">...</div> block above, give it a new lightbox-cert-N id, and update the content. -->
+
+      <!-- Lightbox popups for certifications (one per card, matched by id) -->
+      <div id="lightbox-cert-1" class="lightbox">
+        <a href="#certifications" class="lightbox-inner"><img src="5.png"></a>
+      </div>
+      <div id="lightbox-cert-2" class="lightbox">
+        <a href="#certifications" class="lightbox-inner"><img src="6.png"></a>
+      </div>
+      <div id="lightbox-cert-3" class="lightbox">
+        <a href="#certifications" class="lightbox-inner"><img src="7.png"></a>
+      </div>
+      <div id="lightbox-cert-4" class="lightbox">
+        <a href="#certifications" class="lightbox-inner"><img src="8.png"></a>
+      </div>
+      <div id="lightbox-cert-5" class="lightbox">
+        <a href="#certifications" class="lightbox-inner"><img src="9.png"></a>
+      </div>
     </section>
 
 <!-- ---------------- WORK EXPERIENCE ---------------- -->
@@ -274,7 +303,11 @@
               <li>[Action verb] + [problem/inefficiency you identified] + [solution you built/applied], + [measurable result, e.g. time saved].</li>
             </ul>
             <div class="photo-grid">
-              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+              <a href="#lightbox-work-1-1"><img src="10.png" alt="Photo 1"></a>
+              <a href="#lightbox-work-1-2"><img src="11.png" alt="Photo 2"></a>
+              <a href="#lightbox-work-1-3"><img src="12.png" alt="Photo 3"></a>
+              <a href="#lightbox-work-1-4"><img src="13.png" alt="Photo 4"></a>
+              <a href="#lightbox-work-1-5"><img src="14.png" alt="Photo 5"></a>
             </div>
           </div>
         </div>
@@ -290,13 +323,49 @@
               <li>[Action verb] + [what you did] + [who/what it affected], + [measurable outcome, if any].</li>
             </ul>
             <div class="photo-grid">
-              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+              <a href="#lightbox-work-2-1"><img src="1.png" alt="Photo 1"></a>
+              <a href="#lightbox-work-2-2"><img src="2.png" alt="Photo 2"></a>
+              <a href="#lightbox-work-2-3"><img src="3.png" alt="Photo 3"></a>
+              <a href="#lightbox-work-2-4"><img src="4.png" alt="Photo 4"></a>
+              <a href="#lightbox-work-2-5"><img src="5.png" alt="Photo 5"></a>
             </div>
           </div>
         </div>
 
       </div>
       <!-- Need more work experience entries? Duplicate one <div class="tl-item">...</div> block above and update the content. -->
+
+      <!-- Lightbox popups for work experience photos -->
+      <div id="lightbox-work-1-1" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="10.png"></a>
+      </div>
+      <div id="lightbox-work-1-2" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="11.png"></a>
+      </div>
+      <div id="lightbox-work-1-3" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="12.png"></a>
+      </div>
+      <div id="lightbox-work-1-4" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="13.png"></a>
+      </div>
+      <div id="lightbox-work-1-5" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="14.png"></a>
+      </div>
+      <div id="lightbox-work-2-1" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="1.png"></a>
+      </div>
+      <div id="lightbox-work-2-2" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="2.png"></a>
+      </div>
+      <div id="lightbox-work-2-3" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="3.png"></a>
+      </div>
+      <div id="lightbox-work-2-4" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="4.png"></a>
+      </div>
+      <div id="lightbox-work-2-5" class="lightbox">
+        <a href="#work" class="lightbox-inner"><img src="5.png"></a>
+      </div>
     </section>
 
 <!-- ---------------- ACHIEVEMENTS (MERGED) ---------------- -->
@@ -311,7 +380,11 @@
             <p class="date-inline">Mon YYYY</p>
             <h3>🥈 [Award/Recognition Name]</h3>
             <div class="photo-grid">
-              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+              <a href="#lightbox-achieve-1-1"><img src="6.png" alt="Photo 1"></a>
+              <a href="#lightbox-achieve-1-2"><img src="7.png" alt="Photo 2"></a>
+              <a href="#lightbox-achieve-1-3"><img src="8.png" alt="Photo 3"></a>
+              <a href="#lightbox-achieve-1-4"><img src="9.png" alt="Photo 4"></a>
+              <a href="#lightbox-achieve-1-5"><img src="10.png" alt="Photo 5"></a>
             </div>
           </div>
         </div>
@@ -322,7 +395,11 @@
             <p class="date-inline">Mon YYYY</p>
             <h3>🏆 [Award/Recognition Name]</h3>
             <div class="photo-grid">
-              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+              <a href="#lightbox-achieve-2-1"><img src="11.png" alt="Photo 1"></a>
+              <a href="#lightbox-achieve-2-2"><img src="12.png" alt="Photo 2"></a>
+              <a href="#lightbox-achieve-2-3"><img src="13.png" alt="Photo 3"></a>
+              <a href="#lightbox-achieve-2-4"><img src="14.png" alt="Photo 4"></a>
+              <a href="#lightbox-achieve-2-5"><img src="1.png" alt="Photo 5"></a>
             </div>
           </div>
         </div>
@@ -333,13 +410,64 @@
             <p class="date-inline">Mon YYYY</p>
             <h3>🎓 [Award/Recognition Name]</h3>
             <div class="photo-grid">
-              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+              <a href="#lightbox-achieve-3-1"><img src="2.png" alt="Photo 1"></a>
+              <a href="#lightbox-achieve-3-2"><img src="3.png" alt="Photo 2"></a>
+              <a href="#lightbox-achieve-3-3"><img src="4.png" alt="Photo 3"></a>
+              <a href="#lightbox-achieve-3-4"><img src="5.png" alt="Photo 4"></a>
+              <a href="#lightbox-achieve-3-5"><img src="6.png" alt="Photo 5"></a>
             </div>
           </div>
         </div>
 
       </div>
       <!-- Need more achievement entries? Duplicate one <div class="tl-item">...</div> block above and update the content. -->
+
+      <!-- Lightbox popups for achievement photos -->
+      <div id="lightbox-achieve-1-1" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="6.png"></a>
+      </div>
+      <div id="lightbox-achieve-1-2" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="7.png"></a>
+      </div>
+      <div id="lightbox-achieve-1-3" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="8.png"></a>
+      </div>
+      <div id="lightbox-achieve-1-4" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="9.png"></a>
+      </div>
+      <div id="lightbox-achieve-1-5" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="10.png"></a>
+      </div>
+      <div id="lightbox-achieve-2-1" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="11.png"></a>
+      </div>
+      <div id="lightbox-achieve-2-2" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="12.png"></a>
+      </div>
+      <div id="lightbox-achieve-2-3" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="13.png"></a>
+      </div>
+      <div id="lightbox-achieve-2-4" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="14.png"></a>
+      </div>
+      <div id="lightbox-achieve-2-5" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="1.png"></a>
+      </div>
+      <div id="lightbox-achieve-3-1" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="2.png"></a>
+      </div>
+      <div id="lightbox-achieve-3-2" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="3.png"></a>
+      </div>
+      <div id="lightbox-achieve-3-3" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="4.png"></a>
+      </div>
+      <div id="lightbox-achieve-3-4" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="5.png"></a>
+      </div>
+      <div id="lightbox-achieve-3-5" class="lightbox">
+        <a href="#achievements" class="lightbox-inner"><img src="6.png"></a>
+      </div>
     </section>
 
 <!-- ---------------- LEADERSHIP & CO-CURRICULAR ACTIVITIES (MERGED) ---------------- -->
@@ -355,7 +483,11 @@
             <h3>[Role Title] — [Activity/Event Name]</h3>
             <p>[Example] Directed/Led [an activity/event scope, e.g. participant count], achieving [specific outcome or recognition].</p>
             <div class="photo-grid">
-              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+              <a href="#lightbox-lead-1-1"><img src="7.png" alt="Photo 1"></a>
+              <a href="#lightbox-lead-1-2"><img src="8.png" alt="Photo 2"></a>
+              <a href="#lightbox-lead-1-3"><img src="9.png" alt="Photo 3"></a>
+              <a href="#lightbox-lead-1-4"><img src="10.png" alt="Photo 4"></a>
+              <a href="#lightbox-lead-1-5"><img src="11.png" alt="Photo 5"></a>
             </div>
           </div>
         </div>
@@ -367,13 +499,49 @@
             <h3>[Role Title] — [Activity/Event Name]</h3>
             <p>[Action verb] + [what you organised/secured/contributed], + [scope or impact].</p>
             <div class="photo-grid">
-              <div class="photo-placeholder"><span>🖼️</span><p>Will upload soon</p></div>
+              <a href="#lightbox-lead-2-1"><img src="12.png" alt="Photo 1"></a>
+              <a href="#lightbox-lead-2-2"><img src="13.png" alt="Photo 2"></a>
+              <a href="#lightbox-lead-2-3"><img src="14.png" alt="Photo 3"></a>
+              <a href="#lightbox-lead-2-4"><img src="1.png" alt="Photo 4"></a>
+              <a href="#lightbox-lead-2-5"><img src="2.png" alt="Photo 5"></a>
             </div>
           </div>
         </div>
 
       </div>
       <!-- Need more leadership entries? Duplicate one <div class="tl-item">...</div> block above and update the content. -->
+
+      <!-- Lightbox popups for leadership photos -->
+      <div id="lightbox-lead-1-1" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="7.png"></a>
+      </div>
+      <div id="lightbox-lead-1-2" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="8.png"></a>
+      </div>
+      <div id="lightbox-lead-1-3" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="9.png"></a>
+      </div>
+      <div id="lightbox-lead-1-4" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="10.png"></a>
+      </div>
+      <div id="lightbox-lead-1-5" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="11.png"></a>
+      </div>
+      <div id="lightbox-lead-2-1" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="12.png"></a>
+      </div>
+      <div id="lightbox-lead-2-2" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="13.png"></a>
+      </div>
+      <div id="lightbox-lead-2-3" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="14.png"></a>
+      </div>
+      <div id="lightbox-lead-2-4" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="1.png"></a>
+      </div>
+      <div id="lightbox-lead-2-5" class="lightbox">
+        <a href="#leadership" class="lightbox-inner"><img src="2.png"></a>
+      </div>
     </section>
 
 <!-- ---------------- REFERENCES ---------------- -->
