@@ -221,6 +221,7 @@ main {
   padding: 2.2rem 2.5rem;
   box-shadow: var(--shadow);
   border: 1px solid var(--border);
+  overflow: hidden;
   transition: background 0.3s, border-color 0.3s, box-shadow 0.3s;
 }
 
