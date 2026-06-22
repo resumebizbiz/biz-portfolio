@@ -554,16 +554,36 @@ main {
    PHOTO GRID (Leadership / Achievements)
    ================================================ */
 .photo-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   gap: 8px;
   margin-top: 0.8rem;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  padding-bottom: 6px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.photo-grid::-webkit-scrollbar {
+  height: 6px;
+}
+
+.photo-grid::-webkit-scrollbar-track {
+  background: var(--bg-placeholder);
+  border-radius: 4px;
+}
+
+.photo-grid::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 4px;
 }
 
 .photo-placeholder {
   background: var(--bg-placeholder);
   border-radius: 8px;
+  width: 200px;
   height: 160px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -583,8 +603,10 @@ main {
 
 /* When real photos added, use img tag instead */
 .photo-grid img {
-  width: 100%;
+  width: 200px;
   height: 160px;
+  flex-shrink: 0;
+  scroll-snap-align: start;
   object-fit: cover;
   border-radius: 8px;
 }
@@ -653,8 +675,8 @@ footer {
   .skill-category-label { min-width: unset; }
   .projects-grid { grid-template-columns: 1fr; }
   .cert-grid { grid-template-columns: repeat(2, 1fr); }
-  .photo-grid { grid-template-columns: repeat(2, 1fr); }
-  .photo-placeholder { height: 120px; }
+  .photo-placeholder { width: 150px; height: 120px; }
+  .photo-grid img { width: 150px; height: 120px; }
 }
 
 @media (max-width: 440px) {
